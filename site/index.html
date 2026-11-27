@@ -29,6 +29,12 @@
   .card h3{margin:0 0 .55rem;font-size:1.12rem;letter-spacing:-.01em}
   .card h3 span{color:var(--ink2);font-weight:400;font-size:.95rem}
   .plain{color:var(--ink);margin-bottom:.85rem}
+  .plain{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:1rem 1.1rem;margin:1rem 0}
+  .plain p{margin:0 0 .6rem;color:var(--ink)}
+  .plain p:last-child{margin-bottom:0;color:var(--ink2)}
+  .plain ul{margin:.2rem 0 .8rem;padding-left:1.05rem}
+  .plain li{color:var(--ink2);margin:.28rem 0}
+  .plain li strong{color:var(--ink)}
   .meta{font-size:.85rem;color:var(--ink2);margin:.7rem 0 0}
   ul{margin:.4rem 0 1rem;padding-left:1.1rem;color:var(--ink2)}
   li{margin:.3rem 0}
@@ -51,14 +57,31 @@
 
   <div class="card">
     <h3><a href="https://paystage.xyz">PayStage</a> <span>— the check that runs before an agent pays</span></h3>
-    <p class="plain"><strong>In plain words:</strong> your AI assistant can now buy things on its own — a data lookup, an API call, a report. PayStage checks each purchase against the rules you set before it is paid: how much per purchase, how much a day, who it may buy from. If it doesn’t fit, it is stopped. Like a company card with a limit — except the limit is actually checked every time, and you get a receipt for every decision.</p>
+    <div class="plain">
+      <p><strong>In plain words.</strong> Your AI assistant can buy things on its own. PayStage checks each purchase first:</p>
+      <ul>
+        <li>does it fit the amount you allowed, per purchase and per day?</li>
+        <li>is it going to someone on your list?</li>
+        <li>if not — stop it, or ask you first.</li>
+      </ul>
+      <p>You get a receipt for every decision. Like a company card with a limit that is actually checked.</p>
+    </div>
     <p>An independent, read-only preflight for x402 payments. Before an AI agent signs anything it gets back <code>pay</code>, <code>review</code> or <code>do_not_pay</code>, with the rule that fired — caps, velocity windows, allow-lists, and a receipt for every decision.</p>
     <p class="meta">Open source · no custody · no keys held · built on Base · work in progress</p>
   </div>
 
   <div class="card">
     <h3><a href="https://vouchguard.app">VouchGuard</a> <span>— the same limits, in a form a person can hold</span></h3>
-    <p class="plain"><strong>In plain words:</strong> AI assistants spend money — a few cents a call, hundreds of calls a day — and the first most companies hear of it is the invoice. VouchGuard puts each assistant on a budget you can actually see: what it may spend per purchase, what it may spend in a day, who it may pay, and when the permission ends. It sits in the wallet on your phone as a pass, so you can check it in a second and change it in one tap — and anyone who needs to verify it can scan it. No month-end surprise, and no dashboard to remember.</p>
+    <div class="plain">
+      <p><strong>In plain words.</strong> AI assistants spend money all day, and the first most companies hear of it is the invoice. VouchGuard gives each one a budget you can see:</p>
+      <ul>
+        <li><strong>a limit per purchase</strong> — one call can’t clear the account;</li>
+        <li><strong>a limit per day</strong> — a busy day can’t become a bill;</li>
+        <li><strong>who it may pay, and until when</strong> — one job, or two weeks;</li>
+        <li><strong>one tap to stop it</strong> — and anyone can scan the pass to check it is real.</li>
+      </ul>
+      <p>It lives in the wallet on your phone as a pass. No dashboard to remember.</p>
+    </div>
     <p>A spending mandate on an Apple Wallet pass: per-purchase cap, a per-24h ceiling, an expiry and a revoke. The person paying can see what a teammate may spend without opening a dashboard; a counterparty can scan it and read the same state.</p>
     <p class="meta">A record of authority, not a payment card · open source under MIT · rebrandable for your own business · work in progress</p>
   </div>
