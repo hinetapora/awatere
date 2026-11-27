@@ -19,8 +19,10 @@ limit, except the limit is actually checked every time and you get a receipt.
 Open source, no custody, built on Base.
 
 **[VouchGuard](https://vouchguard.app)** — the same limits in a form a person can hold. A spending mandate on an
-Apple Wallet pass: per-purchase cap, per-24h ceiling, expiry and revoke. *In plain words:* the same limits on a card in your phone's wallet — see what each assistant may spend, change it,
-switch it off. A ticket you carry, not a dashboard you have to remember.
+Apple Wallet pass: per-purchase cap, per-24h ceiling, expiry and revoke. *In plain words:* AI assistants spend money — a few cents a call, hundreds of calls a day — and the first most
+companies hear of it is the invoice. This puts each assistant on a budget you can see: per purchase, per day,
+who it may pay, and when the permission ends. It sits in your phone's wallet as a pass, so you can check it in a
+second and change it in one tap, and anyone who needs to verify it can scan it. No month-end surprise.
 
 A record of authority, not a payment card.
 
