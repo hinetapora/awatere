@@ -3,56 +3,64 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Awatere — what is a machine allowed to do with money?</title>
-<meta name="description" content="Two projects in progress: PayStage, the check that runs before an AI agent pays, and VouchGuard, the same limits on a pass a person can hold.">
-<meta property="og:title" content="Awatere — two projects in progress">
-<meta property="og:description" content="PayStage: the check before an agent pays. VouchGuard: the same limits on a pass a person can hold.">
+<title>David Awatere — infrastructure delivery, and two projects in progress</title>
+<meta name="description" content="Thirty years delivering telecoms and infrastructure at national scale in New Zealand, the UAE and Asia. Now building two projects about what a machine is allowed to do with money.">
+<meta property="og:title" content="David Awatere — infrastructure, and what a machine may spend">
+<meta property="og:description" content="Delivered New Zealand's fibre-to-the-home programme and its structural separation. Now: PayStage and VouchGuard.">
 <meta name="color-scheme" content="light dark">
 <style>
-  :root{--ink:#0B1020;--ink-2:#424A5C;--paper:#FFFFFF;--wash:#F5F6F8;--accent:#1A5F7A;--rule:#E3E6EB}
-  @media (prefers-color-scheme:dark){:root{--ink:#F2F3F6;--ink-2:#AAB2C0;--paper:#0B1020;--wash:#121A2A;--accent:#7AA2B2;--rule:#233047}}
+  :root{--ink:#0B1020;--ink2:#4A5262;--paper:#FFFFFF;--wash:#F5F6F8;--accent:#1A5F7A;--rule:#E3E6EB}
+  @media (prefers-color-scheme:dark){:root{--ink:#F2F3F6;--ink2:#AAB2C0;--paper:#0B1020;--wash:#121A2A;--accent:#7AA2B2;--rule:#233047}}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-  main{max-width:44rem;margin:0 auto;padding:4rem 1.5rem 6rem}
-  .kicker{font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
-  h1{font-size:clamp(1.9rem,5vw,2.6rem);line-height:1.15;letter-spacing:-.02em;margin:.6rem 0 1rem}
-  h2{font-size:1.05rem;letter-spacing:-.01em;margin:3rem 0 .4rem}
-  p{margin:0 0 1rem;color:var(--ink-2)}
+  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  main{max-width:46rem;margin:0 auto;padding:4.5rem 1.5rem 6rem}
+  .kicker{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink2)}
+  h1{font-size:clamp(2rem,5vw,2.8rem);line-height:1.12;letter-spacing:-.025em;margin:.7rem 0 1rem}
+  h2{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink2);margin:3.5rem 0 1rem;font-weight:600}
+  p{margin:0 0 1rem;color:var(--ink2)}
+  strong{color:var(--ink);font-weight:600}
   a{color:var(--accent)}
-  .lead{color:var(--ink);font-size:1.1rem}
-  .card{border:1px solid var(--rule);border-radius:14px;padding:1.25rem 1.35rem;margin:1rem 0;background:var(--wash)}
-  .card h3{margin:0 0 .5rem;font-size:1.15rem;letter-spacing:-.01em}
-  .card h3 span{color:var(--ink-2);font-weight:400;font-size:.95rem}
-  .meta{font-size:.85rem;color:var(--ink-2);margin-top:.75rem}
-  hr{border:0;border-top:1px solid var(--rule);margin:3rem 0 1.5rem}
-  footer{font-size:.85rem;color:var(--ink-2)}
+  .lead{font-size:1.12rem;color:var(--ink)}
+  .card{border:1px solid var(--rule);border-radius:14px;padding:1.3rem 1.4rem;margin:1rem 0;background:var(--wash)}
+  .card h3{margin:0 0 .55rem;font-size:1.12rem;letter-spacing:-.01em}
+  .card h3 span{color:var(--ink2);font-weight:400;font-size:.95rem}
+  .meta{font-size:.85rem;color:var(--ink2);margin:.7rem 0 0}
+  ul{margin:.4rem 0 1rem;padding-left:1.1rem;color:var(--ink2)}
+  li{margin:.3rem 0}
+  hr{border:0;border-top:1px solid var(--rule);margin:3.5rem 0 1.5rem}
+  footer{font-size:.87rem;color:var(--ink2)}
 </style>
 </head>
 <body>
 <main>
-  <p class="kicker">Work in progress</p>
-  <h1>What is a machine allowed to do with money?</h1>
-  <p class="lead">Two projects, both an attempt at that question. I care about the unglamorous middle of tech — the parts that decide whether a number can be checked rather than whether it sounds good.</p>
+  <p class="kicker">David Awatere · Málaga, Spain</p>
+  <h1>Thirty years of infrastructure delivery. Now two projects about what a machine is allowed to do with money.</h1>
+  <p class="lead">I spent three decades turning complex, politically visible programmes into things that actually got built — telecoms networks, national broadband, data centres, service desks. Lately the interesting problem is different: software that spends money on its own, and how anyone proves it was allowed to.</p>
 
-  <h2>In progress</h2>
+  <h2>What I've delivered</h2>
+  <p>New Zealand's <strong>fibre-to-the-home programme</strong>, including the structural separation of Telecom NZ into Spark (retail) and Chorus (wholesale), and the quasi-regulatory oversight of the wholesale operators from 2011 to 2021. A <strong>nationwide bulk infrastructure programme</strong> — publicly funded connectivity, security and safety technology to more than 600 locations, with 20+ subcontractors, cabinet papers, PMO, procurement and ministerial reporting. An <strong>emirate-wide telecoms programme</strong> at Etisalat in Abu Dhabi, an ITIL service desk, and a professional services practice built from scratch.</p>
+  <p>Earlier: avionics engineering in the Royal New Zealand Air Force — A-4K Skyhawks, 75 Squadron Ohakea, Exercise STARFISH and VANGUARD. A principal consultant at Orange during the years there were 42 certified internet experts in the country. Cisco <strong>CCIE</strong>, lifetime tenured, and an inventor on a patent for providing new communication services over existing wiring.</p>
+  <p>Business cases, policy, procurement, negotiation, recruitment, build, operate and transfer — across Hong Kong, Malaysia, Thailand, Singapore, China, the UAE, Australia and New Zealand.</p>
+
+  <h2>What I'm building now</h2>
 
   <div class="card">
     <h3><a href="https://paystage.xyz">PayStage</a> <span>— the check that runs before an agent pays</span></h3>
     <p>An independent, read-only preflight for x402 payments. Before an AI agent signs anything it gets back <code>pay</code>, <code>review</code> or <code>do_not_pay</code>, with the rule that fired — caps, velocity windows, allow-lists, and a receipt for every decision.</p>
-    <p class="meta">Open source · no custody · no keys held · built on Base</p>
+    <p class="meta">Open source · no custody · no keys held · built on Base · work in progress</p>
   </div>
 
   <div class="card">
     <h3><a href="https://vouchguard.app">VouchGuard</a> <span>— the same limits, in a form a person can hold</span></h3>
-    <p>A spending mandate on an Apple Wallet pass: per-purchase cap, a per-24h ceiling, an expiry and a revoke. The person paying can see what a teammate may spend without opening a dashboard, and a counterparty can scan it and read the same state.</p>
-    <p class="meta">A record of authority, not a payment card · open source under MIT · rebrandable for your own business</p>
+    <p>A spending mandate on an Apple Wallet pass: per-purchase cap, a per-24h ceiling, an expiry and a revoke. The person paying can see what a teammate may spend without opening a dashboard; a counterparty can scan it and read the same state.</p>
+    <p class="meta">A record of authority, not a payment card · open source under MIT · rebrandable for your own business · work in progress</p>
   </div>
 
   <h2>How I work</h2>
-  <p>Plainly, in small pieces, with the measurement next to the claim. “Unverified” is a complete sentence. If something is not working yet, the page about it says so.</p>
+  <p>Decisive, brief, prepared. I value autonomy and directness, and I try to leave behind systems that do not need me in the room. In software that means the same thing it meant in infrastructure: the measurement next to the claim, and “unverified” treated as a complete sentence.</p>
 
   <hr>
-  <footer>Both projects are work in progress. Reach me through either site, or open an issue on <a href="https://github.com/hinetapora/awatere">GitHub</a>.</footer>
+  <footer>Both projects are work in progress and say so on their own sites. Reach me on <a href="https://github.com/hinetapora">GitHub</a>, or through either project.</footer>
 </main>
 </body>
 </html>

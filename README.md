@@ -1,35 +1,22 @@
-# Awatere
+# David Awatere
 
-Two projects in progress, both circling one question: **what is a machine allowed to do with money?**
+Thirty years of infrastructure delivery — telecoms, national broadband, data centres, service desks — across New
+Zealand, the UAE and Asia. Lately: software that spends money on its own, and how anyone proves it was allowed to.
 
-I'm interested in the unglamorous middle of tech — the parts that decide whether a number can be checked rather
-than whether it sounds good. Payments infrastructure, distributed systems, and lately the protocols that let
-software act on its own without being trusted blindly.
+**Delivered:** New Zealand's fibre-to-the-home programme and the structural separation of Telecom NZ into Spark and
+Chorus · a nationwide bulk infrastructure programme to 600+ locations with 20+ subcontractors · an emirate-wide
+telecoms programme and professional services practice at Etisalat, Abu Dhabi · avionics engineering in the RNZAF
+before that. Cisco CCIE (lifetime tenured); inventor on a patent for new communication services over existing wiring.
 
-## In progress
+## Building now
 
-### [PayStage](https://paystage.xyz) — the check that runs before an agent pays
+**[PayStage](https://paystage.xyz)** — the check that runs before an AI agent pays. An independent, read-only
+preflight for x402: `pay`, `review` or `do_not_pay` with the rule that fired, plus a receipt for every decision.
+Open source, no custody, built on Base.
 
-An independent, read-only preflight for x402 payments. Before an AI agent signs anything, it asks a local policy
-engine and gets back `pay`, `review` or `do_not_pay` — with the rule that fired. Caps, velocity windows, allow-lists,
-and a receipt for every decision, so an agent cannot quietly spend past a limit it was never given.
+**[VouchGuard](https://vouchguard.app)** — the same limits in a form a person can hold. A spending mandate on an
+Apple Wallet pass: per-purchase cap, per-24h ceiling, expiry and revoke. A record of authority, not a payment card.
 
-Open source, no custody, no keys held. Built on Base.
+**This page:** <https://awatere.pages.dev>
 
-### [VouchGuard](https://vouchguard.app) — the same limits, in a form a person can hold
-
-A spending mandate on an Apple Wallet pass: per-purchase cap, a per-24h ceiling, an expiry, and a revoke. The person
-paying can see what a teammate is allowed to spend without opening a dashboard, and a counterparty can scan it and
-read the same state.
-
-A record of authority — deliberately not a payment card, not a wallet, and it holds no money. Open source and
-rebrandable under MIT, because a small business should be able to adopt the pattern without adopting a vendor.
-
-## How I work
-
-Plainly, in small pieces, with the measurement next to the claim. "Unverified" is a complete sentence. If something
-is not working yet, the page about it says so.
-
----
-
-*Both projects are work in progress. Reach me through either site, or open an issue here.*
+Both projects are work in progress and say so on their own sites.
